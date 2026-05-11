@@ -1,5 +1,7 @@
+#my target here is sum two nubers if there are really excite or output message thats one not exicte yet
 a=input("Enter your first number  :")
 b=input("Enter your second number :")
+#need use strip here to avoid any error
 a= None if a.strip()=="" else float(a)
 b= None if b.strip()=="" else float(b)
 if a is None or b is None:
@@ -7,3 +9,5 @@ if a is None or b is None:
 else:
     sum_result=a+b
     print("The sum of numbers is : ",sum_result)
+#11/05/2026
+#by wassim tatari
