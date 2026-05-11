@@ -1,0 +1,9 @@
+a=input("Enter your first number  :")
+b=input("Enter your second number :")
+a= None if a.strip()=="" else float(a)
+b= None if b.strip()=="" else float(b)
+if a is None or b is None:
+    print("Sum of numbers is unkown")
+else:
+    sum_result=a+b
+    print("The sum of numbers is : ",sum_result)
